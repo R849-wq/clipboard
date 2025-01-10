@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+
+
+<style>
+  div {
+      /* border: 3px solid blue; */
+  }
+  
+  .clearfix {
+      overflow: auto;
+  }
+  
+  nav {
+      float: left;
+      width: 200px;
+      border: 3px solid #73AD21;
+  }
+  
+  .small{
+      margin-left: 206px;
+      border: 3px solid red;
+  }
+  </style>
+<body>
+  
+<div class="clearfix">
+
+  <nav>
+    <span>nav</span>
+      <ul>
+        <li><a target="_self" href="../default.html">Home</a></li>
+        <li><a target="_self" href="default.html">CSS</a></li>
+        <li><a target="_self" href="../html/default.html">HTML</a></li>
+        <li><a target="_self" href="../js/default.html">JavaScript</a></li>
+      </ul>
+    </nav>
+  
+    <section>
+      <span>section</span>
+      <p>Notice we have put a clearfix on the div container. It is not needed in this example, but it would be if the nav element was longer than the non-floated section content.</p>
+    </section>
+  
+    <section class="small">
+      <span>section</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet.</p>
+    </section>
+  
+  </div>
+</body>
+</html>

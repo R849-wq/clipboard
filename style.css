@@ -1,0 +1,152 @@
+.header{
+    background-image: url(bg-header-desktop.png);
+    height: 250px;
+    color: gray;
+
+}
+
+.copyright{
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+    color: aqua;
+}
+
+.button1{
+    color: white;
+    background-color: rgb(33, 177, 151);
+    border-bottom: 20px solid black;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    border-radius: 60px;
+    box-shadow: 0 1px 0 1px black;
+    outline: none;
+    margin-right: 10px;
+    
+}
+
+.button2{
+color: whitesmoke;
+background-color: rgb(50, 115, 176);
+    border-bottom: 20px solid black;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    border-radius: 60px;
+    box-shadow: 0 1px 0 1px black;
+    outline: none;
+}
+
+.section1{
+    text-align: center;
+    color: gray;
+
+}
+.section2{
+    text-align: center;
+    color: gray;
+    margin-top: 60px;
+}
+
+.button{
+    text-align: center;
+    color: gray;
+    margin-bottom: 50px;
+}
+
+.section3{
+    color: gray;
+    display: flex;
+    margin-top: 60px;
+}
+
+.section3-para{
+    display: block;
+    margin-left: 40px;
+}
+
+.img{
+    width: 700px;
+    height: 500px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+}
+.section4{
+    text-align: center;
+    color: gray;
+}
+
+.image{
+    float: center;
+    margin-top: 50px;
+}
+.class1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   color: grey;
+}
+
+h4{
+    color: rgb(80, 76, 76);
+}
+.img1{
+    margin-left: 25px;
+}
+
+.class2{
+    word-spacing: 80px;
+    padding: 50px;
+    color: gray;
+}
+
+.section5{
+    text-align: center;
+    color: gray;
+    margin-bottom: 50px;
+}
+
+.section6{
+    text-align: center;
+    color: gray;
+}
+
+.btn{
+    margin-bottom: 50px;
+}
+
+.footer{
+    color: gray;
+    justify-content: space-between;
+    background-color: rgba(128, 128, 128, 0.137);
+    height: 100px;
+}
+
+.footer-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+ .logo{
+    font-size: xx-large;
+    color: rgba(0, 128, 0, 0.746);
+    margin-left: 40px;
+}
+
+.list{
+    display: flex;
+    margin-top: 15px;
+    margin-right: 550px;
+}
+
+ul li{
+    list-style: none;
+}
+
+.icon{
+    margin-top: 50px;
+    margin-right: 60px;
+    word-spacing: 15px;
+} 
